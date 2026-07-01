@@ -1,0 +1,21 @@
+[2026-06-27 17:01:47] Total Evaluated: 5 | TP: 3, FP: 1, FN: 1 | Precision: 0.7500 | Recall: 0.7500 | F1-Score: 0.7500
+[2026-06-27 17:15:12] Total Evaluated: 5 | TP: 3, FP: 0, FN: 2 | Precision: 1.0000 | Recall: 0.6000 | F1-Score: 0.7500
+[2026-06-27 17:21:38] Total Evaluated: 5 | TP: 3, FP: 1, FN: 1 | Precision: 0.7500 | Recall: 0.7500 | F1-Score: 0.7500
+[2026-06-27 17:27:19] Total Evaluated: 5 | TP: 3, FP: 1, FN: 1 | Precision: 0.7500 | Recall: 0.7500 | F1-Score: 0.7500
+[2026-06-27 17:36:28] Total Evaluated: 5 | TP: 2, FP: 0, FN: 3 | Precision: 1.0000 | Recall: 0.4000 | F1-Score: 0.5714
+[2026-06-27 19:42:10] Total Evaluated: 5 | TP: 2, FP: 1, FN: 2 | Precision: 0.6667 | Recall: 0.5000 | F1-Score: 0.5714
+[2026-06-27 19:48:45] Total Evaluated: 5 | TP: 2, FP: 1, FN: 2 | Precision: 0.6667 | Recall: 0.5000 | F1-Score: 0.5714
+[2026-06-27 19:54:50] Total Evaluated: 5 | TP: 2, FP: 1, FN: 2 | Precision: 0.6667 | Recall: 0.5000 | F1-Score: 0.5714
+[2026-06-27 19:57:49] Total Evaluated: 5 | TP: 3, FP: 2, FN: 0 | Precision: 0.6000 | Recall: 1.0000 | F1-Score: 0.7500
+[2026-06-27 22:42:29] Total Evaluated: 5 | TP: 2, FP: 3, FN: 0 | Precision: 0.4000 | Recall: 1.0000 | F1-Score: 0.5714
+[2026-06-27 23:01:59] Total Evaluated: 5 | TP: 5, FP: 0, FN: 0 | Precision: 1.0000 | Recall: 1.0000 | F1-Score: 1.0000
+[2026-06-29 17:32:55] Total Evaluated: 5 | TP: 4, FP: 0, FN: 1 | Precision: 1.0000 | Recall: 0.8000 | F1-Score: 0.8889
+[2026-06-29 17:48:36] Total Evaluated: 20 | TP: 13, FP: 4, FN: 3 | Precision: 0.7647 | Recall: 0.8125 | F1-Score: 0.7879
+[2026-06-29 21:23:02] Total Evaluated: all | TP: 3, FP: 3, FN: 3 | Precision: 0.5000 | Recall: 0.5000 | F1-Score: 0.5000
+[2026-06-30 09:26:07] Total Evaluated: all | TP: 0, FP: 13, FN: 18 | Precision: 0.0000 | Recall: 0.0000 | F1-Score: 0.0000
+[2026-06-30 09:59:16] Total Evaluated: all | TP: 6, FP: 8, FN: 17 | Precision: 0.4286 | Recall: 0.2609 | F1-Score: 0.3243
+[2026-06-30 12:26:18] Total Evaluated: all | TP: 6, FP: 9, FN: 16 | Precision: 0.4000 | Recall: 0.2727 | F1-Score: 0.3243
+[2026-06-30 12:50:56] Total Evaluated: all | TP: 4, FP: 4, FN: 23 | Precision: 0.5000 | Recall: 0.1481 | F1-Score: 0.2286
+[2026-06-30 13:09:19] Total Evaluated: all | TP: 9, FP: 8, FN: 14 | Precision: 0.5294 | Recall: 0.3913 | F1-Score: 0.4500
+
+[2026-06-30 16:33:31] Total Evaluated rebac without: all | TP: 5, FP: 1, FN: 3 | Precision: 0.8333 | Recall: 0.6250 | F1-Score: 0.7143

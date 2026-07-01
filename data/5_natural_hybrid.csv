@@ -1,0 +1,11 @@
+rule_id,rule_text
+R5,Hospital Admins can form new ownership connections between Staff and clinical protocol if the 'since' year is greater than 2000.
+R22,"IT Engineers can access 'assigned to' connections where the year falls after 2020 and before 2018."
+R35,Order Managers can add any properties to Medical Order relationships if their user ID matches the owner ID.
+R64,"Resource Managers are barred from deleting the 'status' property on 'owns' connections if the active flag is false."
+R72,"Compliance Officers can eliminate 'transfers' relationships if the transferred amount exceeds 10000."
+R97,"Chief Physicians can remove 'prescribes' associations if the dosage is greater than 500."
+R109,"Head Physicians can delete 'treats' links when the priority level is 5 or above."
+R111,"Head Physicians can inspect active 'treats' relationships."
+R117,"Doctors can form 'prescribes' connections if the dosage is over 500."
+R119,"Doctors are permitted to view 'prescribes' associations that occur on a daily frequency."

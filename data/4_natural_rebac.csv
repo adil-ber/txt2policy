@@ -1,0 +1,10 @@
+rule_id,rule_text
+R1,Administrators have authorization to create any relationship between two staffs.
+R2,"Administrators can add approval on patient's insurance."
+R3,"Nurses cannot associate patients with insurance"
+R4,"Nurses are not allowed to see who owns a clinical protocol"
+R5,"Nurses are not allowed to modify dosage prescribed by staff in a medical document"
+R6,Admins can add any properties to associations between staff and patient.
+R7,"Hospital Admins are allowed to unassociate patient from it treatment staff."
+R8,"Nurses can view the staff which prescribes medical document."
+R9,"Nurses can view when the staff prescribed a medical document."

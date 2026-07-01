@@ -1,0 +1,121 @@
+rule_id,rule_text
+R1,Hospital Administrators is not allowed to establish new Staff records.
+R2,The system allows Hospital Admins to generate Clinical Protocol entries.
+R3,Hospital Administrators can create collaborations details between employees.
+R4,Hospital Admins are authorized to insert Billing Records provided the amount exceeds 1000.
+R5,Hospital Admins can form new ownership connections if the 'since' year is greater than 2000.
+R6,Administrators at the hospital are allowed to create any type of node.
+R7,Nurses have the right to generate Medical Document records.
+R8,Nurses are authorized to view Medical Documents.
+R9,Nurses are explicitly prohibited from accessing or browsing Medical Documents.
+R10,Nurses can add 'owns' links between entities."
+R11,Nurses have permission to inspect any kind of connection.
+R12,"Nurses are not allowed to traverse 'owns' associations."
+R13,Data Analysts are granted the ability to make any type of relationship.
+R14,"Data Analysts can explore 'connected' relationships."
+R15,Data Analysts are blocked from browsing any relationships.
+R16,"Data Analysts may create any node, as long as its level attribute is less than 5."
+R17,Data Analysts can read Clinical Protocol entries.
+R18,Data Analysts are forbidden from viewing any node types.
+R19,IT Engineers can instantiate any node.
+R20,IT Engineers are permitted to browse Staff profiles.
+R21,IT Engineers have authorization to create any relationship.
+R22,"IT Engineers can access 'assigned to' connections where the year falls after 2020 and before 2018."
+R23,Equipment Managers may view Medical Equipment items.
+R24,Equipment Managers can add new Medical Equipment records.
+R25,Data Analysts are restricted from viewing Patient Confidential Records.
+R26,Profile Editors can append an email to Patient Accounts if they are marked as the owner.
+R27,Profile Editors are allowed to see the email on Patient Accounts.
+R28,"Contact Managers can attach a phone number to 'has contact' links."
+R29,"Address Editors may input an address on a Patient Account, assuming they are the owner."
+R30,Address Editors can view the address field of Patient Accounts.
+R31,Address Editors are forbidden from reading any information on Patient Accounts.
+R32,"Doctors can append a diagnosis to a Medical Record, provided they are the assigned physician."
+R33,Doctors have permission to check diagnoses on Medical Records.
+R34,Doctors are prohibited from viewing diagnoses within Medical Records.
+R35,Order Managers can add any properties to Medical Order relationships if their user ID matches the owner ID.
+R36,Order Managers can review the status of Medical Orders.
+R37,HR Managers can create Staff profiles if the person's age is simultaneously over 60 and under 18.
+R38,HR Managers are allowed to make Staff records when the employment status is both active and inactive.
+R39,"HR Managers can establish Staff entries when the 'false' condition is met."
+R40,HR Managers may add Staff records if the salary is strictly greater than 5000 and less than or equal to 5000.
+R41,Auditors have permission to inspect Billing Records exceeding 1000 in amount.
+R42,Auditors can browse Billing Records where the amount is over 500.
+R43,Auditors may review Billing Records that are larger than 2000.
+R44,Auditors can view User Accounts for individuals older than 30.
+R45,Auditors are granted access to browse User Accounts for people aged 18 to 65 inclusive.
+R46,Auditors may examine User Accounts belonging to users between 25 and 40 years of age.
+R47,Auditors can check completed Medical Orders that cost more than 100.
+R48,"Auditors are authorized to read Medical Orders with a 'completed' status."
+R49,Auditors can look into completed Medical Orders valued above 500.
+R50,Auditors can inspect Medical Equipment with a value surpassing 1000.
+R51,Auditors are permitted to explore Medical Equipment valued over 500.
+R52,Auditors can read Medical Equipment logs if the value is negative and simultaneously greater than 100.
+R53,Auditors may view Medical Documents that are not marked as confidential.
+R54,Auditors have the right to access confidential Medical Documents.
+R55,Auditors can review Medical Documents owned by the admin.
+R56,Auditors are allowed to check Staff records where the age is exactly 18.
+R57,Auditors can browse Staff profiles with a level strictly greater than 3 but no more than 4.
+R58,Auditors may examine Staff records earning salaries exactly 5000 and somehow over 5000.
+R59,Nurses can generate new Patient Activity logs.
+R60,Nurses are allowed to review Patient Activity entries.
+R61,Nurses are restricted from viewing Patient Activities with a score over 80.
+R62,Medical Editors are empowered to erase archived Medical Documents.
+R63,Medical Editors may update the status of Medical Documents.
+R64,"Resource Managers are barred from deleting the 'status' property on 'owns' connections if the active flag is false."
+R65,"Resource Managers have authorization to strip the 'active' property from 'owns' relationships."
+R66,System Supervisors can create User Accounts with a level of 5 or higher.
+R67,"System Supervisors are allowed to populate the 'level' attribute on User Accounts."
+R68,Content Moderators can set up Clinical Notes as long as the visibility is private.
+R69,Content Moderators are permitted to edit any detail on Clinical Notes.
+R70,Auditors can examine Patient Accounts possessing a balance of zero or less.
+R71,Auditors have the ability to alter any data within Patient Accounts.
+R72,"Compliance Officers can eliminate 'transfers' relationships if the transferred amount exceeds 10000."
+R73,"Compliance Officers are denied the ability to modify any 'transfers' connections."
+R74,HR Assistants can update the salary field on Staff records.
+R75,HR Assistants are permitted to add salary information to Staff entries.
+R76,HR Assistants can clear out any property on a Staff node.
+R77,"Junior Data Analysts are prohibited from changing the date on 'reports to' links."
+R78,"Junior Data Analysts can append dates to 'reports to' associations."
+R79,"Junior Data Analysts are allowed to delete any attribute from 'reports to' relationships."
+R80,Support Agents are forbidden to edit any part of a Patient Profile.
+R81,Support Agents can attach a phone number to a Patient Profile.
+R82,Support Agents may remove the phone number from Patient Profiles.
+R83,Payroll Clerks cannot alter a Staff member's salary.
+R84,Payroll Clerks can insert a salary value into Staff nodes.
+R85,Payroll Clerks are authorized to delete the salary property from Staff records.
+R86,Billing Clerks are prevented from updating the credit limit on Patient Accounts.
+R87,Billing Clerks can add a credit limit to Patient Accounts.
+R88,Billing Clerks may wipe the credit limit from Patient Accounts.
+R89,IT Support staff are not allowed to change the role of a User Account.
+R90,IT Support can add a role designation to User Accounts.
+R91,IT Support has the right to remove the role from User Accounts.
+R92,Payroll Clerks can read the salary details of Staff members.
+R93,Billing Clerks are allowed to see the credit limit on Patient Accounts.
+R94,IT Support can view the role assigned to User Accounts.
+R95,"Senior Doctors can delete Patient records once the status is 'discharged'."
+R96,Senior Doctors are allowed to update a Patient's status.
+R97,"Chief Physicians can remove 'prescribes' associations if the dosage is greater than 500."
+R98,"Chief Physicians can adjust any details on a 'prescribes' relationship."
+R99,Risk Managers can discard Security Events rated with a severity of 4 or higher.
+R100,Risk Managers are empowered to edit all aspects of Security Events.
+R101,Senior Doctors can erase critical Security Events.
+R102,Senior Doctors may change the status of Security Events.
+R103,Medical Interns are not permitted to register Patients who are under 18.
+R104,Medical Interns can modify any detail on a Patient record.
+R105,Medical Interns can establish any type of node.
+R106,Medical Interns can access records for stable Patients.
+R107,Medical Interns are barred from deleting Patients in critical condition.
+R108,Medical Interns are prohibited from removing Patient files unless the status is not discharged or it is critical.
+R109,"Head Physicians can delete 'treats' links when the priority level is 5 or above."
+R110,Head Physicians can add any properties to a TREATS record.
+R111,"Head Physicians can inspect active 'treats' relationships."
+R112,"Head Physicians are allowed to update the status of 'treats' associations."
+R113,Billing Managers can generate Treatment entries costing more than 10000.
+R114,Billing Managers can alter the cost of Treatments.
+R115,Billing Managers have permission to discard unapproved Treatment records.
+R116,Billing Managers can attach any attribute to a Treatment record.
+R117,"Doctors can form 'prescribes' connections if the dosage is over 500."
+R118,"Doctors can clear the dosage attribute from 'prescribes' links."
+R119,"Doctors are permitted to view 'prescribes' associations that occur on a daily frequency."
+R120,"Doctors can edit any field on 'prescribes' relationships."

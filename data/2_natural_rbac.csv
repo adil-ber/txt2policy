@@ -1,0 +1,28 @@
+rule_id,rule_text
+R1,Hospital Administrators is not allowed to establish new Staff records.
+R2,The system allows Hospital Admins to generate Clinical Protocol entries.
+R3,Administrators at the hospital are allowed to create any type of node.
+R4,Nurses have the right to generate Medical Document records.
+R5,Nurses are authorized to view Medical Documents.
+R6,Nurses are explicitly prohibited from accessing or browsing Medical Documents.
+R7,Nurses can add 'owns' links between entities."
+R8,Nurses have permission to inspect any kind of connection.
+R9,"Nurses are not allowed to traverse 'owns' associations."
+R10,Data Analysts are granted the ability to make any type of relationship.
+R11,"Auditors can explore 'collaboration' relationships."
+R12,Data Analysts are blocked from browsing any relationships.
+R13,Data Analysts can read Clinical Protocol entries.
+R14,Data Analysts are forbidden from viewing any node types.
+R15,Hospital Admins can instantiate any node.
+R16,Auditors are permitted to browse Staff profiles.
+R17,Auditors may view Medical Equipment items.
+R18,Hospital admins can add new Medical Equipment records.
+R19,Hospital Clerks are allowed to see the email on Patient Accounts.
+R20,Clerk can view the address field of Patient Accounts.
+R21,Hospital Clerks are forbidden from reading any information on Patient Accounts.
+R22,Clerks have permission to check cost of diagnosis.
+R23,Clerks are prohibited from viewing diagnoses cost.
+R24,Nurses may update the status of Medical Documents.
+R25,"Human Resources managers are allowed to populate the 'salary' of staffs."
+R26,Data analysts are permitted to read any detail on Clinical Protocols.
+R27,Auditors have the ability to alter any data within Patient Accounts.

@@ -1,0 +1,3 @@
+rule_id,rule_text
+R3,Nurses are not allowed to trace the admission records of patients who are admitted outside of their currently assigned department
+R4,The hospital IT staff must ensure that all patient insurance data is kept encrypted at rest.

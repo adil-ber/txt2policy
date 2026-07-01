@@ -1,0 +1,11 @@
+rule_id,rule_text;
+R5,grant create on relationships (r:OWNS) where r.since > 2000 source (:Staff) target (:ClinicalProtocol) to Hospital_Admin;
+R22,grant traverse on relationships (r:ASSIGNED_TO) where r.year > 2020 and r.year < 2018 to IT_Engineer;
+R35,grant add{*} on relationships (o:MedicalOrder) where o.ownerId = user.id to OrderManager;
+R64,deny remove{status} on relationships (r:OWNS) where r.active = false to Resource_Manager;
+R72,grant delete on relationships (t:TRANSFER) where t.amount > 10000 to Compliance_Officer;
+R97,grant delete on relationships (pr:PRESCRIBES) where pr.dosage > 500 to Chief_Physician;
+R109,grant delete on relationships (t:TREATS) where t.priority >= 5 to Head_Physician;
+R111,grant traverse on relationships (t:TREATS) where t.status = "active" to Head_Physician;
+R117,grant create on relationships (pr:PRESCRIBES) where pr.dosage > 500 to Doctor;
+R119,grant traverse on relationships (pr:PRESCRIBES) where pr.frequency = "daily" to Doctor;

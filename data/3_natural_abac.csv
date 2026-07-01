@@ -1,0 +1,32 @@
+rule_id,rule_text
+R1,Hospital Admins are authorized to insert Billing Records provided the amount exceeds 1000.
+R2,"Hospital Admins may create any node, as long as its name is known."
+R3,Nurses are restricted from viewing Patient Confidential Records.
+R4,Clerk can append an email to Patient Accounts if they are marked as not private.
+R5,"Clerk may input an address on a Patient Account, assuming they are not private."
+R6,"HospitalClerk can append a phone number to a Patient details, provided they are not private."
+R7,HR Managers can create Staff profiles if the person's age is simultaneously over 60 and under 18.
+R8,HR Managers are allowed to make Staff records when the employment status is both active and inactive.
+R9,"HR Managers cannot establish Staff entries when the name is private."
+R10,HR Managers may add Staff records if the salary is strictly greater than 5000 and less than or equal to 5000.
+R11,Auditors have permission to inspect Billing Records exceeding 1000 in amount.
+R12,Auditors can browse Billing Records where the amount is over 500.
+R13,Auditors may review Billing Records that are larger than 2000.
+R14,Auditors can view Patient Accounts for individuals older than 30.
+R15,Auditors are granted access to browse Patient Accounts for people aged 18 to 65 inclusive.
+R16,Auditors may see Patients between 25 and 40 years of age.
+R17,Auditors can check completed Diagnosis that cost more than 100.
+R18,"Auditors are authorized to read Diagnosis with a 'completed' status."
+R19,Auditors can look into completed Diagnosis valued above 500.
+R20,Auditors can inspect Medical Equipment with a value surpassing 1000.
+R21,Auditors are permitted to explore Medical Equipment valued over 500.
+R22,Auditors can read Medical Equipment logs if the value is negative and simultaneously greater than 100.
+R23,Auditors may view Medical Documents that are not marked as confidential.
+R24,Auditors are allowed to check Staff records where the age is exactly 18.
+R25,Auditors can browse Staff profiles with a level strictly greater than 3 but no more than 4.
+R26,Auditors may examine Staff records earning salaries exactly 5000 or over 5000.
+R27,Nurses are restricted from viewing medical equipment with a value over 1000.
+R28,Admins are empowered to erase archived Medical Documents.
+R29,Hospital Admins cannot delete OWNS relations when conditions are critical.
+R30,Hospital Admins can delete insurance links if not approved yet.
+R31,Hospital Admins can form new ownership connections if the 'since' year is greater than 2000.
