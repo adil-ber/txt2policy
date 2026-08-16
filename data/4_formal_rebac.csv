@@ -1,6 +1,6 @@
 rule_id,rule_text;
 R1,grant create on relationships (*) source (:Staff) target (:Staff) to Hospital_Admin;
-R2,grant addproperty{approved} on relationships (u:HAS_INSURANCE) source (:Patient) target (:Insurance) to Hospital_Admin;
+R2,grant addproperty{approval} on relationships (u:HAS_INSURANCE) source (:Patient) target (:Insurance) to Hospital_Admin;
 R3,deny create on relationships (o:HAS_INSURANCE) source (:Patient) target (:Insurance) to Nurse;
 R4,deny traverse on relationships (r:OWNS) source (:Staff) target (:ClinicalProtocol) to Nurse;
 R5,deny modifyproperty{dosage} on relationships (t:PRESCRIBES) source (:Staff) target (:MedicalDocument) to Nurse;

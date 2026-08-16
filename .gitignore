@@ -1,0 +1,19 @@
+# Logs
+*.log
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables and configs
+.env
+config.json
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Mac / OS generated
+.DS_Store

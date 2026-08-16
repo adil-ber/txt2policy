@@ -2,7 +2,6 @@ import csv
 import logging
 from datetime import datetime
 import re
-import config
 
 class RuleEvaluator:
     def __init__(self, ground_truth_csv, log_file="evaluation_results.log"):
@@ -78,10 +77,11 @@ class RuleEvaluator:
         return norm_gen == norm_exp
     
     
-    def evaluate(self, generated_rules_list):
+    def evaluate(self, generated_rules_list, limit='all'):
         """
         Evaluates the generated rules against the ground truth.
         generated_rules_list: List of dicts [{'rule_id': '1', 'rule': '...'}, ...]
+        limit: Max number of rules to evaluate ('all' or integer)
         """
         ground_truth = self.load_ground_truth()
         if not ground_truth:
@@ -95,10 +95,10 @@ class RuleEvaluator:
         generated_dict = {str(item['rule_id']): item['rule'] for item in generated_rules_list}
 
         # Calculate TP, FP, FN
-        limit = float('inf') if config.LIMIT == 'all' else int(config.LIMIT)
+        max_limit = float('inf') if str(limit).lower() == 'all' else int(limit)
         i=0
         for rule_id, expected_rule in ground_truth.items():
-            if(i>= limit):
+            if(i>= max_limit):
                 break
             i += 1
             
@@ -119,7 +119,7 @@ class RuleEvaluator:
 
         # Format the output string
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        log_entry = (f"[{timestamp}] Total Evaluated: {config.LIMIT} | "
+        log_entry = (f"[{timestamp}] Total Evaluated: {limit} | "
                      f"TP: {tp}, FP: {fp}, FN: {fn} | "
                      f"Precision: {precision:.4f} | Recall: {recall:.4f} | F1-Score: {f1_score:.4f}")
 
